@@ -31,6 +31,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 40px;
+  border-radius: 8px;
 }
 
 .box-for-private-info {
@@ -49,8 +50,9 @@ main {
 }
 .origin {
   color: var(--primary);
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 40px;
+  font-weight: 600;
 }
 .name-surname {
   font-size: 30px;
@@ -67,11 +69,35 @@ main {
   margin-bottom: 15%;
 }
 
+button {
+  width: 100%;
+  height: 55px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--Grey);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:active {
+  transition: all 0.5s;
+  background-color: var(--primary);
+  color: var(--DarkGrey);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  font-size: 15px;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 79%, 72%);
 }
