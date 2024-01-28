@@ -1,0 +1,25 @@
+:root {
+  --primary: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+  --FontSize: 14px;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  /* background-color: var(--OffBlack); */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
