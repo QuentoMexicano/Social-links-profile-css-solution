@@ -9,10 +9,62 @@
 
 * {
   font-family: "Inter", sans-serif;
+  color: var(--White);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 body {
-  /* background-color: var(--OffBlack); */
+  background-color: var(--OffBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  background-color: var(--DarkGrey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.box-for-private-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.origin {
+  color: var(--primary);
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.name-surname {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.auto-description {
+  opacity: 70%;
+}
+
+.profile-info img {
+  border-radius: 50%;
+  width: 40%;
+  margin-bottom: 15%;
 }
 
 .attribution {
